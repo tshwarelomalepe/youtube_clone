@@ -1,24 +1,190 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
+@media only screen and (max-width=800px){
+    body{
+        width:100%;
+        height:100px;
+    }
+}
+
 *{
     margin: 0;
     padding:0;
-    box-sizing:border-box; /* moves all the padding outside of a box to the inside */
+    box-sizing:border-box; 
 }
 body{
     background:white;
     font-family: 'Poppins', sans-serif;
+    
+    
+    
 }
 
 .menu{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     height:70px;
+    padding:15px;
+ 
+
 }
 
 .menu .logo{
     display:flex;
     align-items:center;
 
+}
+
+.menu .logo img{
+    width:100px;
+    margin-left:15px;
+}
+.menu i{
+    padding:0 8px;
+}
+
+.menu .searchBar input{
+    width:500px;
+    padding:0;
+    margin:0;
+    border-radius: 0;
+    border:none;
+    height:100%;
+}
+
+.menu .searchBar form{
+    border:1px solid #ddd;
+    height:35px;
+}
+
+.menu .searchBar button{
+    padding:0;
+    margin:0;
+    border-radius: 0;
+    border:none;
+    height:100%;
+}
+
+.mainBody{
+    height:calc(100vh - 70px);
+    display:flex;
+    overflow-y: scroll;
+    
+
+    
+
+}
+.sideBar{
+   width:300px;
+   background:transparent;
+   height:100vh;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+ 
+.mainBody .sideBar .sideBarSection{
+   display:flex;
+    flex-direction: column;
+    margin:15px;
+    width:100%;
+}  
+
+.mainBody .sideBar .sideBarSection .category{
+    display:flex;
+    padding: 12px 25px;
+}
+
+.mainBody .sideBar .sideBarSection .category span{
+    margin-left:15px;
+}
+
+.mainBody .sideBar .sideBarSection span:hover {
+   background:lightgrey;
+   cursor:pointer;
+}
+hr{
+    background-color: rgba(211, 211, 211, 0.288);
+    border: none;
+    height:1px;
+}
+.videos{
+    
+    width:100%;
+    height:100vh;
+    padding:15px 25px;
+    border-top: 1px solid rgba(211, 211, 211, 0.39);
+    background: transparent
+}
+
+.videos .videosGrid{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.videos .videosGrid .video{
+    width:calc(25% - 10px);
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.videos .videosGrid .video .thumbnail{
+    width:100%;
+    height:170px;
+}
+
+.videos .videosGrid .video .thumbnail img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+
+.author img{
+    object-fit:cover;
+    border-radius:50%;
+    height:30px;
+    width:30px;
+    margin-right: 10px;
+}
+
+.details{
+    display:flex;
+    margin-top:10px;
+}
+
+.details .title{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.details .title h3{
+    color:rgb(3,3,3);
+    font-size:14px;
+}
+
+.details .title a,span{
+    color:rgb(96,96,96);
+    font-size:14px;
+    text-decoration: none;
+}
+
+.material-icons{
+    color:rgb(96,96,96)
+}
+
+.pic{
+    
+    border-radius:50%;
+    height:30px;
+    width:30px;
+   
+}
+.mainBody .sideBar .sideBarSection .category img{
+   
+    border-radius:50%;
+    height:40px;
+    width:40px;
 }

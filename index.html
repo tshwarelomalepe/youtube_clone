@@ -5,24 +5,337 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <div class="menu">
         <div class="logo">
-            <i>M</i>
-            <img src="https://lh3.googleusercontent.com/3g4wDOiAnxbyAflNz4MhGxrkWw4vJ_kEtHTKQyqTx3o9hMBLmTIJha9ZmY87yu9mc8uM-u2OYCz6gPLx4V1o-fuV0ZHGFGenWGKV8tnPR2OvOMqIe2c=v0-s1050">
+            <i class="material-icons">menu</i>
+            
+            <img src="images/yt_logo_rgb_light.png">
         </div>
 
         <div class="searchBar">
-            <input type="text">
-            <button>Search</button>
+            <form action="">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </form>
         </div>
         <div class="icons">
-            <i>U</i>
-            <i>A</i>
-            <i>A</i>
-            <i>P</i>
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">account_circle</i>
+
+
+        </div>
+    </div>
+
+    <div class="mainBody">
+        <div class="sideBar">
+            <div class="sideBarSection">
+                <span class="category">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </span>
+                <span class="category">
+           
+                    <i class="material-icons">whatshot</i>
+                    <span>Trending</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </span>
+            </div>
+            <hr>
+
+            <div class="sideBarSection">
+                <span class="category">
+                    <i class="material-icons">video_library</i>
+                    <span>Library</span>
+                </span>
+                <span class="category">
+           
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">play_circle</i>
+                    <span>Your videos</span>
+                </span>
+            </div>
+
+            
+            <hr>
+            <div class="sideBarSection">
+                <span class="category">
+                    Subscriptions
+                </span>
+                <span class="category">
+           
+                    <img class="pic" src="https://imgs.search.brave.com/CmaY95go-CsSYVBohMI5qxYCUOHq2j60rcntocACv58/rs:fit:316:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5U/Yjd2Sk9IV3BEYjZD/Tlgya2I4V013QUFB/QSZwaWQ9QXBp"> 
+                    <span>Lofi Girl</span>
+                    <i class="material-icons">sensors</i>
+                </span>
+
+                <span class="category">
+           
+                    <img class="pic" src="https://imgs.search.brave.com/CmaY95go-CsSYVBohMI5qxYCUOHq2j60rcntocACv58/rs:fit:316:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5U/Yjd2Sk9IV3BEYjZD/Tlgya2I4V013QUFB/QSZwaWQ9QXBp"> 
+                    <span>Lofi Girl</span>
+                    <i class="material-icons">sensors</i>
+                </span>
+
+                <span class="category">
+           
+                    <img class="pic" src="https://imgs.search.brave.com/CmaY95go-CsSYVBohMI5qxYCUOHq2j60rcntocACv58/rs:fit:316:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5U/Yjd2Sk9IV3BEYjZD/Tlgya2I4V013QUFB/QSZwaWQ9QXBp"> 
+                    <span>Lofi Girl</span>
+                    <i class="material-icons">sensors</i>
+                </span>
+                <span class="category">
+           
+                    <img class="pic" src="https://imgs.search.brave.com/CmaY95go-CsSYVBohMI5qxYCUOHq2j60rcntocACv58/rs:fit:316:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5U/Yjd2Sk9IV3BEYjZD/Tlgya2I4V013QUFB/QSZwaWQ9QXBp"> 
+                    <span>Lofi Girl</span>
+                    <i class="material-icons">sensors</i>
+                </span>
+                <span class="category">
+           
+                    <img class="pic" src="https://imgs.search.brave.com/CmaY95go-CsSYVBohMI5qxYCUOHq2j60rcntocACv58/rs:fit:316:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5U/Yjd2Sk9IV3BEYjZD/Tlgya2I4V013QUFB/QSZwaWQ9QXBp"> 
+                    <span>Lofi Girl</span>
+                    <i class="material-icons">sensors</i>
+                </span>
+                <span>
+                <i class="material-icons">expand_more</i>
+                <button  class="show_more"><span>Show more</span></button>
+                </span>
+            </div>
+            <hr>
+            <div class="sideBarSection">
+                <span class="category">
+                    Explore
+                </span>
+                <span class="category">
+           
+                    <i class="material-icons">music_note</i>
+                    <span>Music</span>
+                    
+                </span>
+
+                <span class="category">
+           
+                    <i class="material-icons">stadia_controller</i>
+                    <
+                    
+                </span>
+
+                <span class="category">
+           
+                    <i class="material-icons">newspaper</i>
+                    <span>News</span>
+                    
+                </span>
+                <span class="category">
+           
+                    <i class="material-icons">social_leaderboard</i>
+                    <span>Sport</span>
+                    
+                </span>
+                
+            </div>
+            </div>
+
+        
+        <div class="videos">
+            <div class="videosGrid">
+             
+                
+                <div class="video">
+                    <div class="thumbnail">
+                        
+                       <a href="https://www.youtube.com/embed/EfXuG_2nCWg" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <a href="" controls target="_blank"><img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"></a>
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <a href="" controls target="_blank"><img src="https://media.istockphoto.com/id/1435014643/photo/ai-machine-learning-robot-hand-ai-artificial-intelligence-assistance-human-touching-on-big.jpg?b=1&s=170667a&w=0&k=20&c=hneWKKCxBCUN0SLnewghFPW3BI_WWqri_mfXdmHfJ1Y="></a>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                        </div>
+                        <div class="title">
+                            <h3>AI fundamentals explained!</h3>
+                            <a href="">Youtube</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
         </div>
     </div>
     
